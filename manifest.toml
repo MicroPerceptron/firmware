@@ -96,3 +96,1331 @@ size = 1849226
 blake3 = "5ee618f79406b2de15ee41ae1818ad9ef4c5ca0ba54809a2a654606845ae555a"
 source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:rtw89/rtw8922a_fw-4.bin"
 license = "realtek-rtw89"
+
+[licenses.amdgpu]
+file = "LICENSES/amd-amdgpu.txt"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:LICENSE.amdgpu"
+blake3 = "f7c91ec5991bd39eab5db7d0b9c8fd270c910ac9fd920e3f2c96061bfdcd527b"
+
+[firmware.amd_gc_11_0_0_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_imu.bin"
+size = 132352
+blake3 = "f2bbda5a86fbc65386011c938f1d7cf20c649814f94d0cffa06fa78a047c68c2"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_imu_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_imu_kicker.bin"
+size = 132352
+blake3 = "ada4d4f43786416cb3c06499392561bd7d5af4302a0a8d33516651ccc2ff3edd"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_imu_kicker.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_me.bin"
+size = 315120
+blake3 = "8c77a584384944e76935215b6d1e7d612f95e4933f2e47bb9cb18e2c5cafa7f9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_mec.bin"
+size = 406528
+blake3 = "09bdd99f3ff761de9107bb499a91565b9d84d2aafbced58ef19c5b2953a8df88"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_mes]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_mes.bin"
+size = 286336
+blake3 = "53715f06f20e6e3e74efb2266255688ce0d2d7d846e789a59e204d6580ac6601"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_mes.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_mes1.bin"
+size = 220480
+blake3 = "1cc69485bd18be6c1823f2c6e9e7a7b14b55d8f9ecf711495a61c21982c876e3"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_mes_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_mes_2.bin"
+size = 260624
+blake3 = "60f6714da327234c304d05b8d01f2cbf195ba911c1f42d5d8f6c3e55ffc71ac2"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_mes_2.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_pfp.bin"
+size = 232096
+blake3 = "5399ddd55dcb5085a601b3efff3cabcb42d25be38a178994425a8915e1975028"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_rlc.bin"
+size = 185376
+blake3 = "51c9f19e0d788378dc2324124ec5359071d560e17b673717c9caa5ff230c97b2"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_rlc_1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_rlc_1.bin"
+size = 185248
+blake3 = "b25872bacbbccba2715e056679a33e81f4a2bf6ee011c54c1e5e0a9cfd681d11"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_rlc_1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_0_rlc_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_0_rlc_kicker.bin"
+size = 185376
+blake3 = "3cbe84489593e121e8f3d8bb40ed7c1bdcb822bbfb846482d1fe66af5746d9f1"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_0_rlc_kicker.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_1_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_1_imu.bin"
+size = 132352
+blake3 = "399d5e0bf28f6dfada759d842e97d46c8eac6098fa722c1e9f520ed9d037686d"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_1_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_1_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_1_me.bin"
+size = 263424
+blake3 = "2ddf0d9864942d46c03aa14f09338e150801e91366ea3905ef47e2a712bee453"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_1_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_1_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_1_mec.bin"
+size = 268160
+blake3 = "a1d4570ab8df5765686b2c0a62640e48dad9688175b8598e0ae3ab9ee8c4e02c"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_1_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_1_mes]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_1_mes.bin"
+size = 287712
+blake3 = "7a4be3a57406f2fcb392a7478c1cc64e3e53fe22482a4e58a15f742059211dc0"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_1_mes.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_1_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_1_mes1.bin"
+size = 235344
+blake3 = "7b3c426202facc5aec30a511d2ece4c8c1210696b48fb991315f74194c95180e"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_1_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_1_mes_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_1_mes_2.bin"
+size = 258368
+blake3 = "ccb834962434bff7dcec6c78a2ea3af9bb90f5004fd58d454e1478d18d10bec8"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_1_mes_2.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_1_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_1_pfp.bin"
+size = 263424
+blake3 = "c7002e970a0f9e7e0ca3459b44a75cb98affcb9f7ae0de0a25000cfa15393331"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_1_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_1_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_1_rlc.bin"
+size = 157040
+blake3 = "56d1381110ef3274f39649cd5aeda4c08e86e4fd624ac9d6a72f66e7865ed818"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_1_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_2_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_2_imu.bin"
+size = 132352
+blake3 = "71ed7b9de53569e53d8c8c41eb9d2cc77056b541f99a9bb7631ec886402a09bb"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_2_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_2_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_2_me.bin"
+size = 315120
+blake3 = "f10ac32b8d7d041bbd43e4b219eb81a6c10886e05fb15921ef0687a24aad1f43"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_2_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_2_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_2_mec.bin"
+size = 406528
+blake3 = "f85b0a6e7a88182ac2da2b6e3afb52503d11cbd4a7bc9886d1eb2af9df7d70d7"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_2_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_2_mes]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_2_mes.bin"
+size = 286336
+blake3 = "be06d528282778516ddafa7543910ef6ae0353cabf149df0f21504920bc8de80"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_2_mes.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_2_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_2_mes1.bin"
+size = 218560
+blake3 = "df3cb43e8d7af1bb2142eadd48e6277f44d835d4c94503ae5a6d5c001bf2e8b9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_2_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_2_mes_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_2_mes_2.bin"
+size = 260624
+blake3 = "722d0c5591665b8805ca94d8689ed195dbfbcddadfab83392df510c1a6a4461f"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_2_mes_2.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_2_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_2_pfp.bin"
+size = 232112
+blake3 = "f98648e197c14947357644a10c18279ad5f30d9f1cc0d856758fd1273d18cbab"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_2_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_2_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_2_rlc.bin"
+size = 178848
+blake3 = "4eaaa7891ff3f5cd9a5ceff88893cc99b962ed6f8ee7466e4580c7803d340fe6"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_2_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_3_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_3_imu.bin"
+size = 132352
+blake3 = "39ee6d47d4f904b1ebaa42064e16d2ec470bf0e04e29b66eae7ecf693d604945"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_3_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_3_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_3_me.bin"
+size = 315136
+blake3 = "a6a0ca2897dbbd43e2d7de741c62759e3613bfbbb6b4eeb61bc7f959fffe89ec"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_3_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_3_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_3_mec.bin"
+size = 406528
+blake3 = "1f6acc0b147f6a67a1ba1c420a331f8eba18e693ec4dbda86fb30b12679779c7"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_3_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_3_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_3_mes1.bin"
+size = 220544
+blake3 = "3d3f7f9f8664d04c73a37117513bb28ed56da1520fdeff40584a121411183b2f"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_3_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_3_mes_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_3_mes_2.bin"
+size = 260688
+blake3 = "1787bb662ebd30a9bbfc6bf5238cdbc0496a3b81027b21984d5795304eb585b0"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_3_mes_2.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_3_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_3_pfp.bin"
+size = 232112
+blake3 = "c4867d3d89fa14b90d4bdba9d56be909a5fe5331d5494d94ff29ca13c4b669d2"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_3_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_3_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_3_rlc.bin"
+size = 179104
+blake3 = "81567b8efb0afd4439110c8b4930def54a108bbcb8ef825a51c303000d736b15"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_3_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_4_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_4_imu.bin"
+size = 132352
+blake3 = "399d5e0bf28f6dfada759d842e97d46c8eac6098fa722c1e9f520ed9d037686d"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_4_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_4_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_4_me.bin"
+size = 263424
+blake3 = "104de17827c3ee9810bfade3b43a53aa9a379adfc437deea6933fe5f06a37065"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_4_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_4_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_4_mec.bin"
+size = 268160
+blake3 = "6e76f131d989630e761a6f8f30f7fb532a548e52520d13bd906ff66552fb1e24"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_4_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_4_mes]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_4_mes.bin"
+size = 287712
+blake3 = "7a4be3a57406f2fcb392a7478c1cc64e3e53fe22482a4e58a15f742059211dc0"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_4_mes.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_4_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_4_mes1.bin"
+size = 234640
+blake3 = "4085ea0bb66de8885b1eda7d71bc00b0d94eac426425f620b405f6f337d9d98d"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_4_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_4_mes_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_4_mes_2.bin"
+size = 257760
+blake3 = "dee71f41bffc299bfffdc09158852649a11d6d6c5d232befde9838aeb6047f66"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_4_mes_2.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_4_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_4_pfp.bin"
+size = 263424
+blake3 = "bbf5a5397f8b747112d968b9a1c55caba13b24ccf2c989afbb3e303b6fe05c0c"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_4_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_0_4_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_0_4_rlc.bin"
+size = 159152
+blake3 = "8e7201b027aa5f90caa8e715808eafd41a0da70218b098283779dd46a630e184"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_0_4_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_0_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_0_imu.bin"
+size = 132352
+blake3 = "eb84b43b4bbfd6fc9ed4dc65771fe89dced1a267b74afdf2a2bb568a769de3b6"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_0_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_0_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_0_me.bin"
+size = 263424
+blake3 = "3cdb1702cd6d994cb70a9ca2e788b55dbfc9909bb50c3a1573b8e8ac3b2d7bde"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_0_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_0_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_0_mec.bin"
+size = 268160
+blake3 = "8bf42aaa58594fd06652e12d66828a0548255d757e4b5dbb01915e748d66218e"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_0_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_0_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_0_mes1.bin"
+size = 238128
+blake3 = "16dba43507462b426210e6557920e1365917d874bc617a8de06898908329919c"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_0_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_0_mes_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_0_mes_2.bin"
+size = 258208
+blake3 = "e3a582ede18e7f5e17dd950cbd0f539d97ab9d0773f9a61b9fbbec456007bb93"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_0_mes_2.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_0_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_0_pfp.bin"
+size = 263424
+blake3 = "0d0b2b06515c6d6de85fff884d5f4c653dbac8e7bb255769b4187ac2a30de97d"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_0_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_0_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_0_rlc.bin"
+size = 166528
+blake3 = "dd00cbdfa9ec1c26965ca91b3cb268f108abf8b9e83b3d5cf8f39ef551cd313c"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_0_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_1_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_1_imu.bin"
+size = 132352
+blake3 = "480966848231c876c48845a07b2f36ab554525e4031148a1c032dc8a5545375b"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_1_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_1_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_1_me.bin"
+size = 263424
+blake3 = "639ff3d2d5c97f7b1ddffdaac4691c72259dfc57468409244795e73e1636f640"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_1_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_1_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_1_mec.bin"
+size = 268160
+blake3 = "68519e907f800b38721bd786e9959a5b3a155c9a9de1339c4af9944a49dc817e"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_1_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_1_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_1_mes1.bin"
+size = 238320
+blake3 = "901a37d495b81e1d7a96e0d35179bce6d2af2f8531fba819513765dd64ef8a67"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_1_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_1_mes_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_1_mes_2.bin"
+size = 258496
+blake3 = "6b7a9af539a65f5747dc4d387d169a94e46afb8def16b954604f66b3058a1aec"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_1_mes_2.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_1_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_1_pfp.bin"
+size = 263424
+blake3 = "79e20275b8282982bd64e2b2d40cdd4a2c0c668d2b40e7e0265d2a9494395260"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_1_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_1_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_1_rlc.bin"
+size = 161040
+blake3 = "f6802e4f98ca5aba0871b09fb0a975240d49e4f11a986addc5efc67f937d75ba"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_1_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_2_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_2_imu.bin"
+size = 132352
+blake3 = "cbbc03ebf76ffd8e3a7f32c7e3bbb93814efcf06a4788e234a3b133e147d34b2"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_2_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_2_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_2_me.bin"
+size = 263424
+blake3 = "db8b2166ec8d4ecb1f2f1e3504fa506b8972cb1499e9058ad4564e5d2a018fdb"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_2_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_2_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_2_mec.bin"
+size = 268160
+blake3 = "8deabb2877d41974d895da79b88b94721d9cb3451a9b0bdd6c38886d52198137"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_2_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_2_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_2_mes1.bin"
+size = 237776
+blake3 = "588a775200139bac4bd0bf5c11fa79cfd24b80797edbfa8841f45946b8a620e9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_2_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_2_mes_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_2_mes_2.bin"
+size = 260560
+blake3 = "f7f8e33a962e06c4fc6f0b74b1decf7f1dc578402a1ff9fdc580288c1c36dea2"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_2_mes_2.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_2_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_2_pfp.bin"
+size = 263424
+blake3 = "c35117a1a15527bd30b58b4272873999a62c1c5308227edd42f8bd29a1e6b850"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_2_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_2_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_2_rlc.bin"
+size = 162096
+blake3 = "dcd548f2255eba78252a3590c3c0ed71f79d3cc681d9aef9f542b9b2feb37c5f"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_2_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_3_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_3_imu.bin"
+size = 132352
+blake3 = "cbbc03ebf76ffd8e3a7f32c7e3bbb93814efcf06a4788e234a3b133e147d34b2"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_3_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_3_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_3_me.bin"
+size = 263424
+blake3 = "a571301cced210d5a6df82c17e679a8eb743ed3efa580881066f6307d3e60b80"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_3_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_3_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_3_mec.bin"
+size = 268160
+blake3 = "85cb00e3337a41ef832b910610891a9425aa40aa423dd4eb242529b070e7ec56"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_3_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_3_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_3_mes1.bin"
+size = 237776
+blake3 = "588a775200139bac4bd0bf5c11fa79cfd24b80797edbfa8841f45946b8a620e9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_3_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_3_mes_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_3_mes_2.bin"
+size = 260560
+blake3 = "f7f8e33a962e06c4fc6f0b74b1decf7f1dc578402a1ff9fdc580288c1c36dea2"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_3_mes_2.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_3_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_3_pfp.bin"
+size = 263424
+blake3 = "e16ff63a14614e8434da9641c1be0bca9025aed9c4df91968da7a5928cf318b4"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_3_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_11_5_3_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_11_5_3_rlc.bin"
+size = 162064
+blake3 = "721a6c73b0bd70e488068e9621482cd543d675bd08e05d496b2df8eadc4b2e12"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_11_5_3_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_0_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_0_imu.bin"
+size = 132352
+blake3 = "ff6507b569e243ee0f4121b923d13ce9e5d8ad64d43e5e5a0b7a032c1c9635c0"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_0_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_0_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_0_me.bin"
+size = 459840
+blake3 = "3a33363847f7e74fe0b73cb680b4306bd29cc09a85d06770ba0d636ff3e07cb0"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_0_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_0_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_0_mec.bin"
+size = 455648
+blake3 = "579e0e4073a2a7b261a8e848d6b60fe73160c4c6cbfb280101ce3eca50273895"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_0_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_0_mes]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_0_mes.bin"
+size = 636048
+blake3 = "78def6e11efbcd721509a11cfd927b0f174425d21457c3128d0ab15f8d244636"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_0_mes.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_0_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_0_mes1.bin"
+size = 609840
+blake3 = "cd2be912727cd870a8c4160f99473b6240875ed250a9341fa122a341500e2409"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_0_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_0_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_0_pfp.bin"
+size = 353536
+blake3 = "d73203752f8e0192fbcc9df311e54d963e960eb2f638f784b9dcd76268d086b5"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_0_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_0_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_0_rlc.bin"
+size = 150704
+blake3 = "0138a467a36d9cc7991c42be03eb5976b102e5217ce172f981d51efee181682a"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_0_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_0_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_0_toc.bin"
+size = 2048
+blake3 = "737a6af3f1fb019485a504a6844b45378e690e9e809b13f05f180e3d72f9785a"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_0_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_0_uni_mes]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_0_uni_mes.bin"
+size = 727680
+blake3 = "3be9a3e9f3972959d616e6e9b23658bfd6aa5f5f96f2c93e3d02871e89ee20f7"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_0_uni_mes.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_imu]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_imu.bin"
+size = 132352
+blake3 = "39775e4aa3a78f86e602eceb0e9c6a405a3b1ca0dc17dbccf7a4c9ff12d285f3"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_imu.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_imu_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_imu_kicker.bin"
+size = 132352
+blake3 = "47bb594ccbea1b26881880411f3d6db79ef7fbed24cfc685e23f5282d2fb2af9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_imu_kicker.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_me]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_me.bin"
+size = 459840
+blake3 = "7cf8f2f86a647118ffce0d0c82a994b67c42f26c30c843e172968663cb02a413"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_me.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_mec]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_mec.bin"
+size = 455648
+blake3 = "a03a4f7bece3e62e734388c36dcdcaa6a2dba0679fb6fd549d4a68f6da4afa84"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_mec.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_mes]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_mes.bin"
+size = 643536
+blake3 = "ab6590d9a2d8f98b659b183384fda63f7433906010b4dd622f10699c39ee2a4b"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_mes.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_mes1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_mes1.bin"
+size = 611920
+blake3 = "632195818bc43ccbc00c47ef101849fc79f6746ff3890e878c75f0eb3a9b0742"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_mes1.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_pfp]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_pfp.bin"
+size = 353536
+blake3 = "b5534817941b8c6bf6c29024f8ef9a4a651cb1f0fd373a426e08305696e03834"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_pfp.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_rlc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_rlc.bin"
+size = 150848
+blake3 = "51988d48ffd6459303ff53a6f9098409b84e57f371275ae0b5b3218aa80e049b"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_rlc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_rlc_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_rlc_kicker.bin"
+size = 150848
+blake3 = "00ca2da8dd99e198dbfb390854c2970bc9d8d48922cb27e2cc0d788986e567f4"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_rlc_kicker.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_toc.bin"
+size = 2048
+blake3 = "737a6af3f1fb019485a504a6844b45378e690e9e809b13f05f180e3d72f9785a"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_gc_12_0_1_uni_mes]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/gc_12_0_1_uni_mes.bin"
+size = 727680
+blake3 = "3be9a3e9f3972959d616e6e9b23658bfd6aa5f5f96f2c93e3d02871e89ee20f7"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/gc_12_0_1_uni_mes.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_0_sos]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_0_sos.bin"
+size = 268304
+blake3 = "39a56d2d03c3e4c7eea0198e204e35e37009980fc09093a218ea5af44130c87a"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_0_sos.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_0_sos_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_0_sos_kicker.bin"
+size = 268976
+blake3 = "6aca2fe0a55259572fd1b2900087329f2aa0aa27c30c69d01341561c8703efab"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_0_sos_kicker.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_0_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_0_ta.bin"
+size = 271616
+blake3 = "27258fb2ddd37a5f52ff21a3ed1a7b525b4093f68587752eb186ba1f7563db99"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_0_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_0_ta_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_0_ta_kicker.bin"
+size = 259328
+blake3 = "2838451e131df20c802b5f7d9cd309b9c9e69d63d3cd3fca496420a6407bd0cd"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_0_ta_kicker.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_10_sos]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_10_sos.bin"
+size = 360352
+blake3 = "ddc45c21bf52b304595290c5b3653e58317603eee0e2419aada4faa4e7b50e00"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_10_sos.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_10_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_10_ta.bin"
+size = 267712
+blake3 = "b093011a1cdb7a0887a9eb60b88d812b772801f74b401e4a92b6b4b8421d31ab"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_10_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_11_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_11_ta.bin"
+size = 254976
+blake3 = "80704309697c1d8526d65096266577b1ae4be8dd9e8b5ac332342396d51f7d72"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_11_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_11_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_11_toc.bin"
+size = 2560
+blake3 = "241be19612c0882892ba9b654518b6856c6d2a096a877d45bab0ddeeb2fa4f2c"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_11_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_12_sos]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_12_sos.bin"
+size = 455472
+blake3 = "207a5d575360f2bcaf99a95c8501db45bffae54762b64b7cfd391f0b70829dc9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_12_sos.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_12_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_12_ta.bin"
+size = 70976
+blake3 = "c2b46e189cb56d17ab83b944e32e34f1df4e1e21981f02f44793af42caa8ce96"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_12_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_14_sos]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_14_sos.bin"
+size = 405824
+blake3 = "1212dc4e6966e3f0c07f561293059463ea7c0efa3987853a3cf5ae752c3d85d3"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_14_sos.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_14_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_14_ta.bin"
+size = 67904
+blake3 = "96c3f6fc5f88a05b20f1eac8cdc649a59e03c9c1154f716f1e259e3f1850ee65"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_14_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_4_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_4_ta.bin"
+size = 254976
+blake3 = "80704309697c1d8526d65096266577b1ae4be8dd9e8b5ac332342396d51f7d72"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_4_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_4_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_4_toc.bin"
+size = 2560
+blake3 = "241be19612c0882892ba9b654518b6856c6d2a096a877d45bab0ddeeb2fa4f2c"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_4_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_5_asd]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_5_asd.bin"
+size = 209408
+blake3 = "fb8d7b24aa62025686bc8610a983249821faf0fe30fc14def2f890048351ee55"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_5_asd.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_5_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_5_ta.bin"
+size = 246784
+blake3 = "91845caa150bc11a76ab5960235124e085a4357510bbc3d539621dac9e4debf9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_5_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_5_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_5_toc.bin"
+size = 1792
+blake3 = "3504adec63b06699395a89edb3c734c5f99e0c55c7a360181e2e3357593363d9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_5_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_6_sos]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_6_sos.bin"
+size = 787040
+blake3 = "d15e12a1db82dbcd68d7011cb97095e6877eb485535b17c5f50d8f23455bd885"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_6_sos.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_6_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_6_ta.bin"
+size = 88960
+blake3 = "7ae9ebdca8854fcc5d85ba110a382aef6157ca2e638c6cc2b2b22c31861af89b"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_6_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_7_sos]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_7_sos.bin"
+size = 248496
+blake3 = "dc6babcf608358fc4a0620e732807c0b50e6d4d0d1a2ee1b68114c98452e8b22"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_7_sos.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_7_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_7_ta.bin"
+size = 246784
+blake3 = "91845caa150bc11a76ab5960235124e085a4357510bbc3d539621dac9e4debf9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_7_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_8_asd]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_8_asd.bin"
+size = 168448
+blake3 = "3663cd643bfcafe93ce49a555dd41abd6ca59456632392ccc75815b73afc903d"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_8_asd.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_8_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_8_ta.bin"
+size = 234496
+blake3 = "375d82aecae2642d0654e1addc9651bc38675b8d1cdde44287c76561d56e6813"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_8_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_13_0_8_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_13_0_8_toc.bin"
+size = 1792
+blake3 = "863267f15748e522bc144ef7c0d377c607341bfa45011cfb7cd556928a3e3d42"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_13_0_8_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_0_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_0_ta.bin"
+size = 254976
+blake3 = "80704309697c1d8526d65096266577b1ae4be8dd9e8b5ac332342396d51f7d72"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_0_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_0_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_0_toc.bin"
+size = 2560
+blake3 = "a2e10511743605a2a4efa40c0ecc5763d4ac1f0b57bd129323b30949c4a51e19"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_0_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_1_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_1_ta.bin"
+size = 254976
+blake3 = "80704309697c1d8526d65096266577b1ae4be8dd9e8b5ac332342396d51f7d72"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_1_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_1_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_1_toc.bin"
+size = 2560
+blake3 = "da4ecdbe1c51cdbdcc7bb86ca5841341b9bcd8108bfea96e62778133af721b5b"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_1_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_2_sos]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_2_sos.bin"
+size = 421216
+blake3 = "bdcd137fb7c0fe92a8877f519f58f9cf72d892ba5866c9741994909ade6432ea"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_2_sos.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_2_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_2_ta.bin"
+size = 274432
+blake3 = "2bece454b4d8ef13df82c0a08e451846056004b0cb4fac2040d95c69319dc22c"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_2_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_3_sos]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_3_sos.bin"
+size = 435632
+blake3 = "87e7790fc4fd5bb5e01a81fb09d3c97b3d81f41e15d6724804553dd1bdcf68bc"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_3_sos.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_3_sos_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_3_sos_kicker.bin"
+size = 435968
+blake3 = "49e2ba3e5ceb8a97106957bacdd9ee520089a02fdde833e6b973ecfc75964544"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_3_sos_kicker.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_3_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_3_ta.bin"
+size = 287040
+blake3 = "cc0cb370ad7a4177b6a5908c873d943ba9a25875f3c2ac7a148f2b1afb736246"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_3_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_3_ta_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_3_ta_kicker.bin"
+size = 270624
+blake3 = "96a6d2ea25a008faf3efe0bbc77bf88ae323ba5406a0838af98472dcd4fd492f"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_3_ta_kicker.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_4_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_4_ta.bin"
+size = 254976
+blake3 = "80704309697c1d8526d65096266577b1ae4be8dd9e8b5ac332342396d51f7d72"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_4_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_4_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_4_toc.bin"
+size = 2560
+blake3 = "0511e6ff76ea319437ae7e72ec9ea1c8d41b0f1abcc042514580ee0b662c8ef5"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_4_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_5_ta]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_5_ta.bin"
+size = 254976
+blake3 = "80704309697c1d8526d65096266577b1ae4be8dd9e8b5ac332342396d51f7d72"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_5_ta.bin"
+license = "amdgpu"
+
+[firmware.amd_psp_14_0_5_toc]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/psp_14_0_5_toc.bin"
+size = 2560
+blake3 = "b2f9ef80a1beccde7303efb0c88b4a72bb30e9d173f37e49fae3090dd7359ce9"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/psp_14_0_5_toc.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_6_0_0]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_6_0_0.bin"
+size = 34560
+blake3 = "ba8ce4215d51a670b962e4407bf4a98cb005745a1cdd40325a42539bd3d5e305"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_6_0_0.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_6_0_1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_6_0_1.bin"
+size = 34560
+blake3 = "813064a8a403a936cd79bc6fb781474330737c79624290ded1f9b14260f45864"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_6_0_1.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_6_0_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_6_0_2.bin"
+size = 34560
+blake3 = "cb6219b9173b61568c9c080f4e00d66203712fbc82f53a582e6f290eac931d36"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_6_0_2.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_6_0_3]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_6_0_3.bin"
+size = 34560
+blake3 = "9e5504ff62a64bac0a19fe4c727b14f05e576069c4f72c617bb8410ca705e0ee"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_6_0_3.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_6_1_0]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_6_1_0.bin"
+size = 34560
+blake3 = "b7b0366958cf128f81d94e3bd8e6f5a60be6e02c2d00397823d2ee47deb9a428"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_6_1_0.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_6_1_1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_6_1_1.bin"
+size = 34560
+blake3 = "fda6cae678d3f3ffdb5e8e7b035159c4a810739efb3ee927ff876a1dd09e2438"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_6_1_1.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_6_1_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_6_1_2.bin"
+size = 34560
+blake3 = "e2e8a80c79476678498f1ec9378cf78502286ea227df0db24c37bac1c8bdeefc"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_6_1_2.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_6_1_3]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_6_1_3.bin"
+size = 34560
+blake3 = "cf9479316b77119545ed0643a849f24e378e030a2686b14cb3d7e9751d2c43e3"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_6_1_3.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_7_0_0]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_7_0_0.bin"
+size = 47872
+blake3 = "45dd7c6330625923119c1d53c853843b7b8652d9bfc4cba09889efd68a89525b"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_7_0_0.bin"
+license = "amdgpu"
+
+[firmware.amd_sdma_7_0_1]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/sdma_7_0_1.bin"
+size = 47104
+blake3 = "dc722f4e75d21ffe77a2c217ef8de2e78ed3a760c8710dd8c6c2b95c808b606e"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/sdma_7_0_1.bin"
+license = "amdgpu"
+
+[firmware.amd_smu_13_0_0]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/smu_13_0_0.bin"
+size = 292452
+blake3 = "32ec9d2ec866a1b64dcfbd62ce503fee5283842a8a2ca9bd1bec18785fe4cf4d"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_13_0_0.bin"
+license = "amdgpu"
+
+[firmware.amd_smu_13_0_0_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/smu_13_0_0_kicker.bin"
+size = 261888
+blake3 = "540c8286cba0835c7aa847c4d07b121dae68d13ef9ce89cd89cb19141d9cae01"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_13_0_0_kicker.bin"
+license = "amdgpu"
+
+[firmware.amd_smu_13_0_10]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/smu_13_0_10.bin"
+size = 271520
+blake3 = "407d9c5a80ca47a892ca74c6c45ef5147cc0953e09fa391b62d2ec44f3bbd0c4"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_13_0_10.bin"
+license = "amdgpu"
+
+[firmware.amd_smu_13_0_14]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/smu_13_0_14.bin"
+size = 1420
+blake3 = "f664d8f4ce7ec4ca75fd5f61c44d12cb45862b57a3277375cb13698db642f420"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_13_0_14.bin"
+license = "amdgpu"
+
+[firmware.amd_smu_13_0_6]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/smu_13_0_6.bin"
+size = 3748
+blake3 = "4ff43f2341e6f0904fca296d05e36cb745cd227c6aaabe95d8eec5eec5c509a5"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_13_0_6.bin"
+license = "amdgpu"
+
+[firmware.amd_smu_13_0_7]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/smu_13_0_7.bin"
+size = 287080
+blake3 = "6fcb2f22f996309b484045226a3d52429cf06d65451c1aaacf783437e7cc6cfe"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_13_0_7.bin"
+license = "amdgpu"
+
+[firmware.amd_smu_14_0_2]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/smu_14_0_2.bin"
+size = 333236
+blake3 = "256f0afc7be63a51973c719eb5c3dd7e672c81027faf6c7f1ab2f2d4ffdbf70e"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_14_0_2.bin"
+license = "amdgpu"
+
+[firmware.amd_smu_14_0_3]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/smu_14_0_3.bin"
+size = 333236
+blake3 = "37c6f1e26b16e30a950371946a6f5e16c10c6042814e7f92f113089c5ab98fe7"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_14_0_3.bin"
+license = "amdgpu"
+
+[firmware.amd_smu_14_0_3_kicker]
+vendor = "amd"
+family = "amdgpu"
+file = "amd/amdgpu/smu_14_0_3_kicker.bin"
+size = 327424
+blake3 = "a2370afb2095bda6721702714f7784e95d9be5c0ab324a01ea72c0d518bb170c"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_14_0_3_kicker.bin"
+license = "amdgpu"
