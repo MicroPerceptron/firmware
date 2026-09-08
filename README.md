@@ -5,7 +5,8 @@ system source. Clone this repository or consume an exact commit as a submodule;
 all catalogued binaries are present in the checkout. No per-vendor fetch step is
 needed, and verification works offline.
 
-The catalog starts with the seven Intel images already pinned by Kore. The
+The catalog contains seven Intel images pinned by Kore and the Realtek RTL8922AE
+image pinned by Kore PR #936. The
 layout accepts additional vendors and device families as their firmware is
 reviewed; inclusion does not imply that a consuming driver supports the device.
 
@@ -14,6 +15,11 @@ reviewed; inclusion does not imply that a consuming driver supports the device.
 | Intel NPU (`intel/ivpu`) | VPU 37xx, 40xx, 50xx | [40xx](LICENSES/intel-npu-fork.txt), [37xx / 50xx](LICENSES/intel-npu-upstream.txt) |
 | Intel GPU (`intel/xe`) | MTL / DG2 GuC | [Intel GPU](LICENSES/intel-guc.txt) |
 | Intel GPU (`intel/xe`) | LNL / BMG GuC | [Intel Xe](LICENSES/intel-xe.txt) |
+| Realtek Wi-Fi (`realtek/rtw89`) | RTL8922AE format-4 container | [Realtek](LICENSES/realtek-rtw89.txt) |
+
+The Realtek container is stored under the consumer name `rtw8922a_fw.bin`;
+its upstream name is `rtw8922a_fw-4.bin`. It does not contain a cut-A image.
+The catalog preserves PR #936's exact selected pin, not its commented fallback.
 
 ## Catalog and verification
 

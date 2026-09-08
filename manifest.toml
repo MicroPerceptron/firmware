@@ -82,3 +82,17 @@ size = 377664
 blake3 = "a874000fcec5e786547fe8237e27bf83549b243daf471d853b37d52347642e91"
 source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:xe/bmg_guc_70.bin"
 license = "xe"
+
+[licenses.realtek-rtw89]
+file = "LICENSES/realtek-rtw89.txt"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:LICENCE.rtlwifi_firmware.txt"
+blake3 = "0c4fe446dc9a195b78616a1919940847e4f08ef0f04deaef45dc486d42ddca0e"
+
+[firmware.rtw8922a_fw]
+vendor = "realtek"
+family = "rtw89"
+file = "realtek/rtw89/rtw8922a_fw.bin"
+size = 1849226
+blake3 = "5ee618f79406b2de15ee41ae1818ad9ef4c5ca0ba54809a2a654606845ae555a"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:rtw89/rtw8922a_fw-4.bin"
+license = "realtek-rtw89"
