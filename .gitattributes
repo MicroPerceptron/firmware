@@ -1,0 +1,3 @@
+# Preserve upstream firmware and notice bytes exactly, including line endings.
+*.bin binary
+LICENSES/* -text -whitespace

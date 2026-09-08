@@ -1,0 +1,84 @@
+schema = 1
+
+[licenses.npu-fork]
+file = "LICENSES/intel-npu-fork.txt"
+source = "MicroPerceptron/linux-npu-driver@84819fb90b5786fcde13552df772467f9d6b7ffe:firmware/bin/COPYRIGHT"
+blake3 = "6f97093b92491537ed135ad6740cb3404de49f67c5b68b1c05db7fa5cc6a017a"
+
+[licenses.npu-upstream]
+file = "LICENSES/intel-npu-upstream.txt"
+source = "intel/linux-npu-driver@81a0ceb5e4c57ea6802174a070fbdd2738d0a235:firmware/bin/COPYRIGHT"
+blake3 = "6f97093b92491537ed135ad6740cb3404de49f67c5b68b1c05db7fa5cc6a017a"
+
+[licenses.guc]
+file = "LICENSES/intel-guc.txt"
+source = "intel-gpu/intel-gpu-firmware@2377f55e58228c6882daeca8824b6bebf09dca88:COPYRIGHT"
+blake3 = "172f9a2c0ede604ee05a1a07b1c893074556b06251a8f119bd736489c21efc89"
+
+[licenses.xe]
+file = "LICENSES/intel-xe.txt"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:LICENSE.xe"
+blake3 = "77cac4430d95f4b0146bc9566e8c22829eb595f3169534d04893d4c30eb92606"
+
+[firmware.vpu_40xx_v1]
+vendor = "intel"
+family = "ivpu"
+file = "intel/ivpu/vpu_40xx_v1.bin"
+size = 1016624
+blake3 = "98b5dd185e66b76b1545f01dff8b9ef9d4fd8fe49d9e161a8aecc04f3322329c"
+source = "MicroPerceptron/linux-npu-driver@84819fb90b5786fcde13552df772467f9d6b7ffe:firmware/bin/vpu_40xx_v1.bin"
+license = "npu-fork"
+
+[firmware.vpu_37xx_v1]
+vendor = "intel"
+family = "ivpu"
+file = "intel/ivpu/vpu_37xx_v1.bin"
+size = 2436672
+blake3 = "65b6cb5687679dad78ff948fc9fdee45f3d8bc508fb4e727bbe508b619c3ad38"
+source = "intel/linux-npu-driver@81a0ceb5e4c57ea6802174a070fbdd2738d0a235:firmware/bin/vpu_37xx_v1.bin"
+license = "npu-upstream"
+
+[firmware.vpu_50xx_v1]
+vendor = "intel"
+family = "ivpu"
+file = "intel/ivpu/vpu_50xx_v1.bin"
+size = 730896
+blake3 = "fc802143472d3687ce0d74b8c1a1376300737d9460a3035ad5c1ca780a5577ae"
+source = "intel/linux-npu-driver@81a0ceb5e4c57ea6802174a070fbdd2738d0a235:firmware/bin/vpu_50xx_v1.bin"
+license = "npu-upstream"
+
+[firmware.mtl_guc_70]
+vendor = "intel"
+family = "xe"
+file = "intel/xe/mtl_guc_70.bin"
+size = 312064
+blake3 = "4912cbe9dfb418b26fedf7688c808fe5988654bdb3fce4cb4b98b28681956785"
+source = "intel-gpu/intel-gpu-firmware@2377f55e58228c6882daeca8824b6bebf09dca88:firmware/mtl_guc_70.bin"
+license = "guc"
+
+[firmware.dg2_guc_70]
+vendor = "intel"
+family = "xe"
+file = "intel/xe/dg2_guc_70.bin"
+size = 377600
+blake3 = "86fb8b0181967390a019a5e8f2b18843c527b8867ede325cf3e0570950a1a3c8"
+source = "intel-gpu/intel-gpu-firmware@2377f55e58228c6882daeca8824b6bebf09dca88:firmware/dg2_guc_70.bin"
+license = "guc"
+
+[firmware.lnl_guc_70]
+vendor = "intel"
+family = "xe"
+file = "intel/xe/lnl_guc_70.bin"
+size = 348992
+blake3 = "754d4b93ed384895f036dbdd287f245af73c5fed693d72f4c4567df56663d844"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:xe/lnl_guc_70.bin"
+license = "xe"
+
+[firmware.bmg_guc_70]
+vendor = "intel"
+family = "xe"
+file = "intel/xe/bmg_guc_70.bin"
+size = 377664
+blake3 = "a874000fcec5e786547fe8237e27bf83549b243daf471d853b37d52347642e91"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:xe/bmg_guc_70.bin"
+license = "xe"
