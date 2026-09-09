@@ -74,6 +74,15 @@ blake3 = "754d4b93ed384895f036dbdd287f245af73c5fed693d72f4c4567df56663d844"
 source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:xe/lnl_guc_70.bin"
 license = "xe"
 
+[firmware.ptl_guc_70]
+vendor = "intel"
+family = "xe"
+file = "intel/xe/ptl_guc_70.bin"
+size = 361280
+blake3 = "7be71ff23564d89f0bde432061e84a696bbc9479172fa0d1ff73f676953bfe0f"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:xe/ptl_guc_70.bin"
+license = "xe"
+
 [firmware.bmg_guc_70]
 vendor = "intel"
 family = "xe"

@@ -14,7 +14,7 @@ reviewed; inclusion does not imply that a consuming driver supports the device.
 | --- | --- | --- |
 | Intel NPU (`intel/ivpu`) | VPU 37xx, 40xx, 50xx | [40xx](LICENSES/intel-npu-fork.txt), [37xx / 50xx](LICENSES/intel-npu-upstream.txt) |
 | Intel GPU (`intel/xe`) | MTL / DG2 GuC | [Intel GPU](LICENSES/intel-guc.txt) |
-| Intel GPU (`intel/xe`) | LNL / BMG GuC | [Intel Xe](LICENSES/intel-xe.txt) |
+| Intel GPU (`intel/xe`) | LNL / BMG / PTL GuC | [Intel Xe](LICENSES/intel-xe.txt) |
 | AMD GPU (`amd/amdgpu`) | GC 11/12 and companion PSP / SMU / SDMA development inventory | [AMD](LICENSES/amd-amdgpu.txt) |
 | Realtek Wi-Fi (`realtek/rtw89`) | RTL8922AE format-4 container | [Realtek](LICENSES/realtek-rtw89.txt) |
 
