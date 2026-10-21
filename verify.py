@@ -42,8 +42,12 @@ def verify(root, hasher):
             raise ValueError(f"missing vendor/family: {name}")
         if not re.fullmatch(r"[^@]+@[0-9a-f]{40}:.+", entry["source"]):
             raise ValueError(f"source must pin a full commit: {name}")
-        if entry["license"] not in catalog["licenses"]:
-            raise ValueError(f"missing license mapping: {name}")
+        notices = entry.get("notices", [])
+        if not isinstance(notices, list) or len(set(notices)) != len(notices):
+            raise ValueError(f"notices must be a list of distinct license entries: {name}")
+        for notice in [entry["license"], *notices]:
+            if notice not in catalog["licenses"]:
+                raise ValueError(f"missing license mapping: {name}")
         if path.stat().st_size != entry["size"] or digest(path, hasher) != entry["blake3"]:
             raise ValueError(f"firmware size or digest mismatch: {name}")
     print(f"firmware: verified {len(paths)} blobs and {len(catalog['licenses'])} license notices")

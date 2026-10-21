@@ -37,6 +37,14 @@ class CatalogTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'path escapes catalog'):
             verify.verify(self.root, ['b3sum'])
 
+    def test_missing_notice_mapping(self):
+        path = self.root / 'manifest.toml'
+        text = path.read_text()
+        self.assertIn('notices = ["qcom-notice"]', text)
+        path.write_text(text.replace('notices = ["qcom-notice"]', 'notices = ["qcom-missing"]', 1))
+        with self.assertRaisesRegex(ValueError, 'missing license mapping'):
+            verify.verify(self.root, ['b3sum'])
+
 
 if __name__ == '__main__':
     unittest.main()
