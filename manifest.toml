@@ -1424,3 +1424,63 @@ size = 327424
 blake3 = "a2370afb2095bda6721702714f7784e95d9be5c0ab324a01ea72c0d518bb170c"
 source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_14_0_3_kicker.bin"
 license = "amdgpu"
+
+[licenses.qcom-adreno]
+file = "LICENSES/qcom-adreno.txt"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:LICENSE.qcom"
+blake3 = "36c402e893d3ed5c0afd6eb54a5c5be36633cc2f49f72e8f50bd3aed5cc60508"
+
+[licenses.qcom-notice]
+file = "LICENSES/qcom-notice.txt"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:qcom/NOTICE.txt"
+blake3 = "0399cc9615048b0c327af0a4569a7afbb68074e0760eacc61e1b8d5a00d74eef"
+
+[firmware.qcom_gen71500_sqe]
+vendor = "qcom"
+family = "adreno"
+file = "qcom/adreno/gen71500_sqe.fw"
+size = 67348
+blake3 = "5d591ca5445d92089a7d0180d30ea4187a48f4ba336f783850510a97262d2d03"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:qcom/gen71500_sqe.fw"
+license = "qcom-adreno"
+notices = ["qcom-notice"]
+
+[firmware.qcom_gen71500_gmu]
+vendor = "qcom"
+family = "adreno"
+file = "qcom/adreno/gen71500_gmu.bin"
+size = 80268
+blake3 = "1bfea4508b9cddbfd4c515d5bbc7403069e558e8f169906ac7447e34c45d2cc4"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:qcom/gen71500_gmu.bin"
+license = "qcom-adreno"
+notices = ["qcom-notice"]
+
+[firmware.qcom_gen80100_sqe]
+vendor = "qcom"
+family = "adreno"
+file = "qcom/adreno/gen80100_sqe.fw"
+size = 119828
+blake3 = "5ba4e3ef13817738e53d177a94dd35579e3ca71ba46c69422d5830cd50bc7c64"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:qcom/gen80100_sqe.fw"
+license = "qcom-adreno"
+notices = ["qcom-notice"]
+
+[firmware.qcom_gen80100_gmu]
+vendor = "qcom"
+family = "adreno"
+file = "qcom/adreno/gen80100_gmu.bin"
+size = 117596
+blake3 = "e6cb58d470208182a77962dc8c9b53768c7c87422d739370c243d102ac9e19b8"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:qcom/gen80100_gmu.bin"
+license = "qcom-adreno"
+notices = ["qcom-notice"]
+
+[firmware.qcom_gen80100_aqe]
+vendor = "qcom"
+family = "adreno"
+file = "qcom/adreno/gen80100_aqe.fw"
+size = 31940
+blake3 = "61721e0cc7b750ecfd9b60b4b7575399c769ccee0dd3d6286f55fd97f4576d42"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:qcom/gen80100_aqe.fw"
+license = "qcom-adreno"
+notices = ["qcom-notice"]

@@ -1,3 +1,4 @@
 # Preserve upstream firmware and notice bytes exactly, including line endings.
 *.bin binary
+*.fw binary
 LICENSES/* -text -whitespace
