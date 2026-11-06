@@ -1433,3 +1433,17 @@ size = 327424
 blake3 = "a2370afb2095bda6721702714f7784e95d9be5c0ab324a01ea72c0d518bb170c"
 source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdgpu/smu_14_0_3_kicker.bin"
 license = "amdgpu"
+
+[licenses.amdnpu]
+file = "LICENSES/amd-amdnpu.txt"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:LICENSE.amdnpu"
+blake3 = "091421dd25f0272d0fe1ddbb4e04a8e0df9bbd36b54105d8f49986fa86fd255c"
+
+[firmware.xdna_npu6]
+vendor = "amd"
+family = "xdna"
+file = "amd/xdna/npu.sbin.1.1.2.64"
+size = 429680
+blake3 = "5af418686696b00e7224b9407949d905c25556c86655dd801e2c1caed239f1ff"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:amdnpu/17f0_10/npu.sbin.1.1.2.64"
+license = "amdnpu"
