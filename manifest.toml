@@ -106,6 +106,29 @@ blake3 = "5ee618f79406b2de15ee41ae1818ad9ef4c5ca0ba54809a2a654606845ae555a"
 source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:rtw89/rtw8922a_fw-4.bin"
 license = "realtek-rtw89"
 
+[licenses.mediatek]
+file = "LICENSES/mediatek.txt"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@173d4852f468f77039ada8011409efed67caed16:LICENSES/LICENCE.mediatek"
+blake3 = "dc97d70463f4c73e4bb55d81cbd0c7b55937fad1a6ce6d37dc535b40debd6892"
+
+[firmware.mt7925_patch_mcu]
+vendor = "mediatek"
+family = "mt7925"
+file = "mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin"
+size = 188192
+blake3 = "9aea52922074ac58e9920ce5208636afe2a2fa8f53d440eefc4b0c856afd7541"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@173d4852f468f77039ada8011409efed67caed16:mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin"
+license = "mediatek"
+
+[firmware.mt7925_ram_code]
+vendor = "mediatek"
+family = "mt7925"
+file = "mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin"
+size = 1392088
+blake3 = "22f81e2022f9324296c3eaaf9ff6a38bc7d627f8385bf1fb4270b0f0f3d1943b"
+source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@173d4852f468f77039ada8011409efed67caed16:mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin"
+license = "mediatek"
+
 [licenses.amdgpu]
 file = "LICENSES/amd-amdgpu.txt"
 source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:LICENSE.amdgpu"
