@@ -92,6 +92,20 @@ blake3 = "a874000fcec5e786547fe8237e27bf83549b243daf471d853b37d52347642e91"
 source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:xe/bmg_guc_70.bin"
 license = "xe"
 
+[licenses.iwlwifi]
+file = "LICENSES/intel-iwlwifi.txt"
+source = "kernel-firmware/linux-firmware@69e51bb26f3fa3e118dd770f1962a93bed690dc1:LICENSES/LICENCE.iwlwifi_firmware"
+blake3 = "ea3d65f64165aa831d27f610e7f08a303e4bf8ac59d7c765ba0f108eb5061ae5"
+
+[firmware.iwlwifi_sc_a0_wh_b0_c107]
+vendor = "intel"
+family = "iwlwifi"
+file = "intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c107.ucode"
+size = 2138140
+blake3 = "7985f841f2d30ed6a8b87d0483f7c7ba6beacaed909a0505daaea920528cb2c6"
+source = "kernel-firmware/linux-firmware@69e51bb26f3fa3e118dd770f1962a93bed690dc1:intel/iwlwifi/iwlwifi-sc-a0-wh-b0-c107.ucode"
+license = "iwlwifi"
+
 [licenses.realtek-rtw89]
 file = "LICENSES/realtek-rtw89.txt"
 source = "kernelorg-mirror/linux_kernel_git_firmware_linux-firmware@fb0889c0d3dec1e10a9a593a2602e832a752cd2f:LICENCE.rtlwifi_firmware.txt"

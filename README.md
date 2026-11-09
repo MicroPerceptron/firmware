@@ -5,7 +5,7 @@ system source. Clone this repository or consume an exact commit as a submodule;
 all catalogued binaries are present in the checkout. No per-vendor fetch step is
 needed, and verification works offline.
 
-The catalog contains seven Intel images pinned by Kore and the Realtek RTL8922AE
+The catalog contains nine Intel images pinned by Kore and the Realtek RTL8922AE
 image pinned by Kore PR #936, plus the AMDGPU development set described below. The
 layout accepts additional vendors and device families as their firmware is
 reviewed; inclusion does not imply that a consuming driver supports the device.
@@ -15,6 +15,7 @@ reviewed; inclusion does not imply that a consuming driver supports the device.
 | Intel NPU (`intel/ivpu`) | VPU 37xx, 40xx, 50xx | [40xx](LICENSES/intel-npu-fork.txt), [37xx / 50xx](LICENSES/intel-npu-upstream.txt) |
 | Intel GPU (`intel/xe`) | MTL / DG2 GuC | [Intel GPU](LICENSES/intel-guc.txt) |
 | Intel GPU (`intel/xe`) | LNL / BMG / PTL GuC | [Intel Xe](LICENSES/intel-xe.txt) |
+| Intel Wi-Fi (`intel/iwlwifi`) | SC MAC + WH RF (BE211), core 107 | [Intel Wi-Fi](LICENSES/intel-iwlwifi.txt) |
 | AMD GPU (`amd/amdgpu`) | GC 11/12 and companion PSP / SMU / SDMA development inventory | [AMD](LICENSES/amd-amdgpu.txt) |
 | Realtek Wi-Fi (`realtek/rtw89`) | RTL8922AE format-4 container | [Realtek](LICENSES/realtek-rtw89.txt) |
 
