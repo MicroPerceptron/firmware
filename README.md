@@ -16,6 +16,7 @@ reviewed; inclusion does not imply that a consuming driver supports the device.
 | Intel GPU (`intel/xe`) | MTL / DG2 GuC | [Intel GPU](LICENSES/intel-guc.txt) |
 | Intel GPU (`intel/xe`) | LNL / BMG / PTL GuC | [Intel Xe](LICENSES/intel-xe.txt) |
 | Intel Wi-Fi (`intel/iwlwifi`) | SC MAC + WH RF (BE211), core 107 | [Intel Wi-Fi](LICENSES/intel-iwlwifi.txt) |
+| AMD NPU (`amd/xdna`) | NPU6 firmware 1.1.2.64 | [AMD NPU](LICENSES/amd-amdnpu.txt) |
 | AMD GPU (`amd/amdgpu`) | GC 11/12 and companion PSP / SMU / SDMA development inventory | [AMD](LICENSES/amd-amdgpu.txt) |
 | Realtek Wi-Fi (`realtek/rtw89`) | RTL8922AE format-4 container | [Realtek](LICENSES/realtek-rtw89.txt) |
 
